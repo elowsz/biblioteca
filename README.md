@@ -34,7 +34,7 @@ index.ts → Inicialização do servidor
 
 ## 🔗 Endpoints da API
 
-### 📌 Criar livro (POST)
+ 📌 Criar livro (POST)
 `/api/livros`
 
 ```json
@@ -46,19 +46,19 @@ index.ts → Inicialização do servidor
   "disponivel": true
 }
 
-📌 Listar todos (GET)
+Listar todos (GET)
 
 /api/livros
 
-📌 Buscar por ID (GET)
+Buscar por ID (GET)
 
 /api/livros/{id}
 
-📌 Atualizar (PUT)
+Atualizar (PUT)
 
 /api/livros/{id}
 
-📌 Deletar (DELETE)
+Deletar (DELETE)
 
 /api/livros/{id}
 
