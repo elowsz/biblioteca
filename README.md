@@ -15,11 +15,11 @@ Projeto desenvolvido para a disciplina **Arquitetura e Desenvolvimento Back-end*
 ## 🏗️ Arquitetura do Projeto
 
 src/
-├── controller/ → Regras de negócio e rotas
-├── entity/ → Entidade Livro
-├── repository/ → Manipulação do banco via TypeORM
-├── data-source.ts → Conexão com o banco SQLite
-└── index.ts → Inicialização do servidor
+controller/ → Regras de negócio e rotas
+entity/ → Entidade Livro
+repository/ → Manipulação do banco via TypeORM
+data-source.ts → Conexão com o banco SQLite
+index.ts → Inicialização do servidor
 
 ## 📖 Entidade: Livro
 
