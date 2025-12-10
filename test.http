@@ -1,0 +1,68 @@
+### Criar livro
+POST http://localhost:3000/api/livros
+Content-Type: application/json
+
+{
+  "titulo": "Teste 1",
+  "autor": "Autor X",
+  "isbn": "99999",
+  "anoPublicacao": 2020,
+  "disponivel": true
+}
+
+### Listar todos
+GET http://localhost:3000/api/livros
+
+### Buscar por ID
+GET http://localhost:3000/api/livros/1
+
+### Atualizar
+PUT http://localhost:3000/api/livros/1
+Content-Type: application/json
+
+{
+  "disponivel": false
+}
+
+### Deletar
+DELETE http://localhost:3000/api/livros/1
+
+### ============================
+### Criar livro (POST)
+### ============================
+POST http://localhost:3000/api/livros
+Content-Type: application/json
+
+{
+  "titulo": "O Senhor dos Anéis",
+  "autor": "J.R.R. Tolkien",
+  "isbn": "123456789",
+  "anoPublicacao": 1954,
+  "disponivel": true
+}
+
+### ============================
+### Listar todos os livros (GET)
+### ============================
+GET http://localhost:3000/api/livros
+
+### ============================
+### Buscar livro por ID (GET)
+### ============================
+GET http://localhost:3000/api/livros/1
+
+### ============================
+### Atualizar livro (PUT)
+### ============================
+PUT http://localhost:3000/api/livros/1
+Content-Type: application/json
+
+{
+  "titulo": "O Hobbit",
+  "disponivel": false
+}
+
+### ============================
+### Deletar livro (DELETE)
+### ============================
+DELETE http://localhost:3000/api/livros/1
