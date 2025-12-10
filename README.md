@@ -37,7 +37,6 @@ index.ts → Inicialização do servidor
  📌 Criar livro (POST)
 `/api/livros`
 
-```json
 {
   "titulo": "Exemplo",
   "autor": "Fulano",
