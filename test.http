@@ -27,9 +27,8 @@ Content-Type: application/json
 ### Deletar
 DELETE http://localhost:3000/api/livros/1
 
-### ============================
 ### Criar livro (POST)
-### ============================
+
 POST http://localhost:3000/api/livros
 Content-Type: application/json
 
@@ -41,19 +40,19 @@ Content-Type: application/json
   "disponivel": true
 }
 
-### ============================
+
 ### Listar todos os livros (GET)
-### ============================
+
 GET http://localhost:3000/api/livros
 
-### ============================
+
 ### Buscar livro por ID (GET)
-### ============================
+
 GET http://localhost:3000/api/livros/1
 
-### ============================
+
 ### Atualizar livro (PUT)
-### ============================
+
 PUT http://localhost:3000/api/livros/1
 Content-Type: application/json
 
@@ -62,7 +61,7 @@ Content-Type: application/json
   "disponivel": false
 }
 
-### ============================
+
 ### Deletar livro (DELETE)
-### ============================
+
 DELETE http://localhost:3000/api/livros/1
