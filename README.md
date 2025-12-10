@@ -1,19 +1,6 @@
 # 📚 API Biblioteca – CRUD de Livros  
 
-![Tech Stack](https://img.shields.io/badge/Node.js-Express-TypeScript-1f425f?style=for-the-badge&logo=node.js&logoColor=white)
-![API Status](https://img.shields.io/badge/API-ONLINE-brightgreen?style=for-the-badge)
-![TypeORM](https://img.shields.io/badge/TypeORM-Active-blue?style=for-the-badge)
-
 Projeto desenvolvido para a disciplina **Arquitetura e Desenvolvimento Back-end**, com o objetivo de criar uma API Web utilizando **Node.js + Express + TypeORM**, implementando CRUD completo da entidade **Livro**.
-
---- 
-
-## 🎬 Demonstração (GIF)
-A seguir, uma demonstração completa da API em funcionamento:
-
-![Demonstração da API](https://i.imgur.com/VLkW5pB.gif)
-
----
 
 ## 🚀 Tecnologias Utilizadas
 - **Node.js**
